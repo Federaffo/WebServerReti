@@ -1,0 +1,46 @@
+<style>
+    h1  {
+            color: blue;
+            text-align: center;
+        }
+    .menu{
+        background-color: blue;
+        padding: 4%;
+    }
+    .menuItem{
+        margin: 10px;
+        color: white;
+    }
+    body{
+        margin-left: 4%;
+        margin-right: 10%;
+        background-color: aliceblue;
+
+    }
+    img {
+        width: 20%;
+        height: auto;
+        margin: 4%;
+    }
+
+    footer{
+        padding: 4%;
+        background-color: darkslategray;
+    }
+    #footPrint{
+        color: white;
+    }
+    
+    button {
+        background-color: white; 
+        color: black; 
+        border: 2px solid lightblue;
+        transition-duration: 0.4s;
+
+        }
+
+    button:hover {
+    background-color: lightblue;
+
+    }
+</style>
