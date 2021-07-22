@@ -16,7 +16,6 @@ class ServerHandler(http.server.SimpleHTTPRequestHandler):
             self.credentials = f'{jsondata["username"]}:{jsondata["password"]}'
             self.credentials = 'Basic ' + b64encode(
                 self.credentials.encode()).decode("ascii")
-            print(self.credentials)
         return self.credentials
 
     #Mando un errore 401 e richiedo le credenziali
